@@ -1,0 +1,5 @@
+{
+  "AppSyncApiName": "realtimepoc",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false
+}

@@ -1,0 +1,9 @@
+type Game @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Team1Name: String
+  Team1Score: Int
+  Team2Name: String
+  Team2Score: Int
+  live: Boolean
+}
+ 
